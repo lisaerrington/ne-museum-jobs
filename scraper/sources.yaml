@@ -1,0 +1,266 @@
+# ---------------------------------------------------------------------------
+# Where the scraper looks for jobs.
+#
+# To add a museum: copy one of the "page" entries below, change the name,
+# url and id, and commit. The scraper picks it up on its next run.
+#
+# Fields
+#   id        short unique name (letters, numbers, dashes)
+#   name      what the website shows
+#   type      page | rss | jobtrain | listing | nt_api | eh_api
+#   url       the careers / vacancies page
+#   area      Tyne & Wear | Northumberland | County Durham | Tees Valley | Region-wide
+#   museum    true  -> every job here is a museum/heritage job (no keyword check)
+#             false -> only keep jobs that mention museum/heritage keywords
+#   region    true  -> only keep jobs located in the North East (use for
+#                      national or regional boards that cover other areas)
+#   include   optional regex: only keep jobs whose text matches it
+# ---------------------------------------------------------------------------
+
+sources:
+
+  # ---------- Job boards / aggregators ----------------------------------
+
+  - id: northeastjobs
+    name: North East Jobs (councils incl. North East Museums, Preston Park, Dorman, Head of Steam…)
+    type: rss
+    url: https://www.northeastjobs.org.uk/RSSJobs.aspx?orgid=62
+    visit: https://www.northeastjobs.org.uk/alljobs
+    area: Region-wide
+    museum: false
+    region: false
+
+  - id: mdnorth
+    name: Museum Development North – jobs board
+    type: rss
+    urls:
+      - https://www.museumdevelopmentnorth.org.uk/category/jobs/feed/
+      - https://www.museumdevelopmentnorth.org.uk/category/jobs/feed/?paged=2
+      - https://www.museumdevelopmentnorth.org.uk/category/jobs/feed/?paged=3
+    visit: https://www.museumdevelopmentnorth.org.uk/category/jobs/
+    area: Region-wide
+    museum: true
+    region: true
+
+  - id: artsjobs
+    name: Arts Council ArtsJobs (North East)
+    type: listing
+    url: https://www.artsjobs.org.uk/jobs/search?regions_in_england%5B%5D=4
+    area: Region-wide
+    museum: false
+    region: false
+    item: ".listing-copy-wrapper"
+    title: "h2 a"
+    org: ".job__organisation-name"
+    location: ".job__region-england"
+    salary: ".job__job-salary-band"
+    closing: ".job__job-closing-date"
+    summary: ".job__body"
+
+  - id: jobsacuk
+    name: jobs.ac.uk (university museums, galleries & archives)
+    type: listing
+    urls:
+      - https://www.jobs.ac.uk/search/?keywords=museum&sortOrder=1&pageSize=25&startIndex=1
+      - https://www.jobs.ac.uk/search/?keywords=museum&sortOrder=1&pageSize=25&startIndex=26
+      - https://www.jobs.ac.uk/search/?keywords=heritage&sortOrder=1&pageSize=25&startIndex=1
+      - https://www.jobs.ac.uk/search/?keywords=gallery&sortOrder=1&pageSize=25&startIndex=1
+      - https://www.jobs.ac.uk/search/?keywords=archives&sortOrder=1&pageSize=25&startIndex=1
+      - https://www.jobs.ac.uk/search/?keywords=curator&sortOrder=1&pageSize=25&startIndex=1
+    visit: https://www.jobs.ac.uk/search/?keywords=museum
+    area: Region-wide
+    museum: false
+    region: true
+    item: ".j-search-result__text"
+    title: "a"
+    org: ".j-search-result__employer"
+    department: ".j-search-result__department"
+    heritage_fields: [title, org]
+    location_regex: "Location:\\s*([^\\n]+)"
+    salary_regex: "Salary:\\s*([^\\n]+)"
+
+  - id: culturejobs
+    name: Culture Jobs (England)
+    type: listing
+    urls:
+      - https://culturejobs.org/job-region/england/
+      - https://culturejobs.org/job-region/england/page/2/
+      - https://culturejobs.org/job-region/england/page/3/
+    visit: https://culturejobs.org/job-region/england/
+    area: Region-wide
+    museum: true
+    region: true
+    item: "article.hp-listing"
+    title: ".hp-listing__title a"
+    location: ".hp-listing__attribute--location"
+    org: ".hp-listing__attribute--company"
+    salary: ".hp-listing__attribute--salary"
+    closing: ".hp-listing__attribute--deadline"
+
+  - id: nmdc
+    name: National Museum Directors' Council jobs
+    type: page
+    url: https://www.nationalmuseums.org.uk/jobs/
+    area: Region-wide
+    museum: true
+    region: true
+
+  - id: nationaltrust
+    name: National Trust (North East properties)
+    type: nt_api
+    url: https://careers.nationaltrust.org.uk/OA_HTML/applaud/api/search-items?searchText=&pageNum=1&pageSize=300
+    visit: https://careers.nationaltrust.org.uk/OA_HTML/a/#/search
+    area: Region-wide
+    museum: true
+    region: true
+
+  - id: englishheritage
+    name: English Heritage (North East sites)
+    type: eh_api
+    url: https://www.english-heritage.org.uk/api/jobprovider/
+    visit: https://www.english-heritage.org.uk/about/our-people/careers-with-us/job-search/
+    area: Region-wide
+    museum: true
+    region: true
+
+  # ---------- Museums & heritage organisations' own sites ----------------
+
+  - id: northeastmuseums
+    name: North East Museums (Laing, Discovery, Great North Museum, Woodhorn…)
+    type: page
+    url: https://www.northeastmuseums.org.uk/about/jobs
+    area: Tyne & Wear
+    museum: true
+    note: Most of their jobs are advertised via North East Jobs, which is also checked.
+
+  - id: beamish
+    name: Beamish Museum
+    type: jobtrain
+    url: https://www.jobtrain.co.uk/beamishmuseum
+    area: County Durham
+    museum: true
+
+  - id: bowes
+    name: The Bowes Museum
+    type: page
+    url: https://thebowesmuseum.org.uk/jobs-and-volunteering/
+    area: County Durham
+    museum: true
+
+  - id: aucklandproject
+    name: The Auckland Project
+    type: page
+    url: https://aucklandproject.org/support-us/jobs/
+    area: County Durham
+    museum: true
+
+  - id: durhamcathedral
+    name: Durham Cathedral
+    type: page
+    url: https://www.durhamcathedral.co.uk/more/jobs
+    area: County Durham
+    museum: true
+
+  - id: sevenstories
+    name: Seven Stories
+    type: page
+    url: https://www.sevenstories.org.uk/support-us/current-vacancies
+    area: Tyne & Wear
+    museum: true
+
+  - id: baltic
+    name: BALTIC Centre for Contemporary Art
+    type: page
+    url: https://baltic.art/jobs-and-volunteering/
+    area: Tyne & Wear
+    museum: true
+
+  - id: sunderlandculture
+    name: Sunderland Culture (NGCA, Fire Station, Arts Centre Washington)
+    type: page
+    url: https://www.sunderlandculture.org.uk/jobs-opportunities/
+    area: Tyne & Wear
+    museum: true
+
+  - id: vindolanda
+    name: Vindolanda Trust & Roman Army Museum
+    type: page
+    url: https://www.vindolanda.com/work-for-us
+    area: Northumberland
+    museum: true
+
+  - id: alnwickcastle
+    name: Alnwick Castle
+    type: page
+    url: https://www.alnwickcastle.com/jobs
+    area: Northumberland
+    museum: true
+
+  - id: alnwickgarden
+    name: The Alnwick Garden
+    type: page
+    url: https://www.alnwickgarden.com/alnwick-garden-careers/
+    area: Northumberland
+    museum: true
+
+  - id: bamburgh
+    name: Bamburgh Castle
+    type: page
+    url: https://www.bamburghcastle.com/recruitment/
+    area: Northumberland
+    museum: true
+
+  - id: kynren
+    name: Kynren / Eleven Arches
+    type: page
+    url: https://kynren.com/careers/
+    area: County Durham
+    museum: true
+
+  - id: nmrn
+    name: Royal Navy Museums (Hartlepool)
+    type: page
+    url: https://jobs.royalnavymuseums.org.uk/jobs.aspx
+    area: Tees Valley
+    museum: true
+    include: "Hartlepool"
+
+  - id: commonroom
+    name: The Common Room (Mining Institute)
+    type: page
+    url: https://thecommonroom.org.uk/work-with-us/
+    area: Tyne & Wear
+    museum: true
+
+  - id: northumberlandcc
+    name: Northumberland County Council
+    type: page
+    url: https://jobsearch.northumberland.gov.uk/jobs
+    area: Northumberland
+    museum: false
+    note: Durham County Council posts all its jobs on North East Jobs, which is already checked.
+
+# ---------------------------------------------------------------------------
+# Sites that can't be checked automatically (they need a login, block
+# robots, or only post on social media). They appear on the website as
+# "Also worth checking" links.
+# ---------------------------------------------------------------------------
+manual:
+  - name: Science Museum Group – vacancies (look for Locomotion / Shildon)
+    url: https://ce0111li.webitrent.com/ce0111li_webrecruitment/wrd/run/ETREC179GF.open?WVID=8453269WXp
+  - name: MIMA, Middlesbrough
+    url: https://mima.art/
+  - name: Museums Association – Find a Job
+    url: https://www.museumsassociation.org/careers/find-a-job/
+  - name: CharityJob – museum jobs near Newcastle
+    url: https://www.charityjob.co.uk/jobs?keywords=museum&location=Newcastle+upon+Tyne
+  - name: Durham University vacancies
+    url: https://www.durham.ac.uk/jobs/
+  - name: Newcastle University vacancies
+    url: https://jobs.ncl.ac.uk/
+  - name: Arts Network North East (anne.art)
+    url: https://anne.art/
+  - name: GEM (Group for Education in Museums) jobs
+    url: https://gem.org.uk/jobs/
+  - name: Indeed – museum jobs in the North East
+    url: https://uk.indeed.com/jobs?q=museum&l=North+East

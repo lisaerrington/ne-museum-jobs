@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>North East Museum Jobs</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Museum, gallery and heritage vacancies across Tyne & Wear, Northumberland, County Durham and Tees Valley, gathered daily from the organisations' own websites.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a museum catalogue drawer. Each vacancy is an object label with
+   accession-style metadata; filters sit above as a slim toolbar; sources sit
+   below as the "provenance" register. */
+:root {
+  --bg: #f3f2ee;          /* gallery wall, cool stone */
+  --paper: #fbfbf8;       /* label card */
+  --ink: #1d2422;         /* label text */
+  --muted: #5e6965;       /* captions */
+  --rule: #d9dbd4;        /* hairlines */
+  --accent: #2c6150;      /* Tyne Bridge green */
+  --accent-ink: #ffffff;
+  --accent-soft: #dfe9e4;
+  --new: #b4532a;         /* new-since-last-visit, brick */
+  --warn: #9a6a00;
+  --warn-soft: #f5ead0;
+  --bad: #a3352b;
+  --bad-soft: #f6dfdb;
+  --ok: #2f7a4f;
+  --font-display: "Instrument Serif", "Iowan Old Style", Georgia, serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --radius: 4px;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141917; --paper: #1c2220; --ink: #e7ebe8; --muted: #9aa6a1; --rule: #2e3633;
+    --accent: #7fc1a9; --accent-ink: #0f1513; --accent-soft: #23352e;
+    --new: #e58a5f; --warn: #e0b54d; --warn-soft: #3a3120; --bad: #ec8a7f; --bad-soft: #3d2522; --ok: #78c597;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141917; --paper: #1c2220; --ink: #e7ebe8; --muted: #9aa6a1; --rule: #2e3633;
+  --accent: #7fc1a9; --accent-ink: #0f1513; --accent-soft: #23352e;
+  --new: #e58a5f; --warn: #e0b54d; --warn-soft: #3a3120; --bad: #ec8a7f; --bad-soft: #3d2522; --ok: #78c597;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font: 400 15px/1.55 var(--font-body);
+  padding-inline: 16px; padding-block: 0 48px;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 980px; margin: 0 auto; }
+a { color: var(--accent); text-underline-offset: 2px; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+
+/* ---- Masthead ---- */
+.mast { padding-block: 36px 20px; display: grid; gap: 10px; border-bottom: 1px solid var(--rule); }
+.eyebrow { font: 500 11px/1 var(--font-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+h1 { font: 400 clamp(38px, 7vw, 64px)/1 var(--font-display); margin: 0; letter-spacing: -.01em; text-wrap: balance; }
+h1 em { font-style: italic; color: var(--accent); }
+.lede { margin: 0; color: var(--muted); max-width: 62ch; }
+.stats { display: flex; flex-wrap: wrap; gap: 6px 22px; font: 400 13px/1.4 var(--font-mono); color: var(--muted); padding-top: 6px; }
+.stats b { color: var(--ink); font-weight: 500; font-variant-numeric: tabular-nums; }
+.stats .newcount b { color: var(--new); }
+
+/* ---- Toolbar ---- */
+.tools {
+  background: var(--bg); padding-block: 14px 12px; border-bottom: 1px solid var(--rule);
+  display: grid; gap: 10px;
+}
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.search { flex: 1 1 260px; min-width: 0; position: relative; }
+.search input {
+  width: 100%; font: inherit; color: var(--ink); background: var(--paper);
+  border: 1px solid var(--rule); border-radius: var(--radius); padding: 10px 12px 10px 36px;
+}
+.search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); width: 16px; height: 16px; stroke: var(--muted); fill: none; }
+select {
+  font: inherit; font-size: 14px; color: var(--ink); background: var(--paper);
+  border: 1px solid var(--rule); border-radius: var(--radius); padding: 9px 10px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: 500 13px/1 var(--font-body); color: var(--ink); background: transparent;
+  border: 1px solid var(--rule); border-radius: 999px; padding: 7px 12px; cursor: pointer;
+}
+.chip:hover { border-color: var(--accent); }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.chip .n { font: 400 11px/1 var(--font-mono); opacity: .75; margin-left: 4px; }
+.sep { width: 1px; align-self: stretch; background: var(--rule); margin: 2px 4px; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); cursor: pointer; user-select: none; }
+.toggle input { accent-color: var(--accent); width: 15px; height: 15px; margin: 0; }
+
+/* ---- Results ---- */
+.resultbar { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; padding-block: 18px 10px; }
+.resultbar h2 { font: 400 26px/1.1 var(--font-display); margin: 0; }
+.resultbar .hint { font-size: 13px; color: var(--muted); }
+.list { display: grid; gap: 10px; }
+
+.label {
+  background: var(--paper); border: 1px solid var(--rule); border-radius: var(--radius);
+  padding: 16px 18px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px;
+}
+.label.is-new { box-shadow: inset 3px 0 0 var(--new); }
+.label .main { min-width: 0; display: grid; gap: 4px; }
+.label h3 { font: 600 17px/1.3 var(--font-body); margin: 0; text-wrap: balance; }
+.label h3 a { color: var(--ink); text-decoration: none; }
+.label h3 a:hover { color: var(--accent); text-decoration: underline; }
+.org { color: var(--muted); font-size: 14px; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font: 400 12.5px/1.5 var(--font-mono); color: var(--muted); padding-top: 4px; }
+.meta span { white-space: nowrap; }
+.meta .k { text-transform: uppercase; letter-spacing: .08em; font-size: 10.5px; margin-right: 4px; opacity: .8; }
+.side { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
+.pills { display: flex; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.pill { font: 500 11px/1 var(--font-mono); letter-spacing: .06em; text-transform: uppercase; padding: 5px 7px; border-radius: 3px; white-space: nowrap; }
+.pill.new { background: var(--new); color: var(--paper); }
+.pill.soon { background: var(--warn-soft); color: var(--warn); }
+.pill.urgent { background: var(--bad-soft); color: var(--bad); }
+.pill.kind { background: var(--accent-soft); color: var(--accent); }
+.pill.stale { border: 1px dashed var(--muted); color: var(--muted); }
+.pill.wider { border: 1px solid var(--rule); color: var(--muted); }
+.save {
+  background: none; border: 1px solid var(--rule); border-radius: var(--radius); cursor: pointer;
+  color: var(--muted); font: 500 12px/1 var(--font-body); padding: 7px 10px; display: inline-flex; gap: 6px; align-items: center;
+}
+.save svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.save[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
+.save[aria-pressed="true"] svg { fill: currentColor; }
+.also { grid-column: 1 / -1; font-size: 12.5px; color: var(--muted); }
+.empty { background: var(--paper); border: 1px dashed var(--rule); border-radius: var(--radius); padding: 28px; text-align: center; color: var(--muted); }
+
+/* ---- Sources register ---- */
+.register { margin-top: 44px; border-top: 1px solid var(--rule); padding-top: 22px; display: grid; gap: 14px; }
+.register h2 { font: 400 26px/1.1 var(--font-display); margin: 0; }
+.register p { margin: 0; color: var(--muted); max-width: 70ch; font-size: 14px; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper); }
+table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tr:last-child td { border-bottom: 0; }
+th { font: 500 10.5px/1 var(--font-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+td.num { font-variant-numeric: tabular-nums; font-family: var(--font-mono); text-align: right; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 8px; vertical-align: 1px; }
+.dot.ok { background: var(--ok); } .dot.none, .dot.empty { background: var(--muted); } .dot.error { background: var(--bad); }
+.status-text { font-size: 12.5px; color: var(--muted); }
+.status-text.error { color: var(--bad); }
+.manual { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; }
+footer { margin-top: 36px; font-size: 12.5px; color: var(--muted); }
+.banner { margin-top: 16px; padding: 10px 14px; border-radius: var(--radius); background: var(--warn-soft); color: var(--warn); font-size: 13.5px; }
+
+@media (min-width: 760px) {
+  .tools { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; }
+}
+@media (max-width: 620px) {
+  .label { grid-template-columns: minmax(0, 1fr); }
+  .side { flex-direction: row; align-items: center; justify-content: space-between; }
+  .pills { justify-content: flex-start; }
+  .sep { display: none; }
+  .hide-sm { display: none; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .label { transition: border-color .15s; }
+  .label:hover { border-color: var(--accent); }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="mast">
+    <div class="eyebrow">Tyne &amp; Wear · Northumberland · County Durham · Tees Valley</div>
+    <h1>North East <em>Museum</em> Jobs</h1>
+    <p class="lede">Vacancies at museums, galleries, archives and heritage sites, gathered twice a day from the organisations' own careers pages and the regional job boards.</p>
+    <div class="stats" id="stats">
+      <span>Loading…</span>
+    </div>
+    <div class="banner" id="banner" hidden></div>
+  </header>
+
+  <section class="tools" aria-label="Filter jobs">
+    <div class="row">
+      <label class="search" for="q">
+        <svg viewBox="0 0 24 24" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+        <input id="q" type="search" placeholder="Search titles, museums, places…" autocomplete="off">
+      </label>
+      <select id="sort" aria-label="Sort by">
+        <option value="new">Newest first</option>
+        <option value="closing">Closing soonest</option>
+        <option value="org">Organisation A–Z</option>
+      </select>
+    </div>
+    <div class="row">
+      <div class="chips" id="areas" role="group" aria-label="Area"></div>
+      <span class="sep" aria-hidden="true"></span>
+      <div class="chips" id="kinds" role="group" aria-label="Type of role"></div>
+    </div>
+    <div class="row">
+      <label class="toggle" for="onlyNew"><input type="checkbox" id="onlyNew"> New since my last visit</label>
+      <label class="toggle" for="onlySaved"><input type="checkbox" id="onlySaved"> Saved only</label>
+      <label class="toggle" for="wider"><input type="checkbox" id="wider"> Include jobs outside the North East</label>
+    </div>
+  </section>
+
+  <section aria-live="polite">
+    <div class="resultbar">
+      <h2 id="resultTitle">Vacancies</h2>
+      <span class="hint" id="resultHint"></span>
+    </div>
+    <div class="list" id="list"></div>
+  </section>
+
+  <section class="register" id="sources">
+    <h2>Where we look</h2>
+    <p>Every site below is checked automatically. A grey dot means the site was checked and had nothing listed; a red dot means the site couldn't be read this time, so it's worth opening the link yourself. "Page changed" shows when the careers page last changed, which helps with small museums that post jobs as plain text.</p>
+    <div class="tablewrap">
+      <table>
+        <thead><tr><th>Source</th><th class="hide-sm">Area</th><th style="text-align:right">Jobs</th><th>Status</th></tr></thead>
+        <tbody id="srcRows"></tbody>
+      </table>
+    </div>
+    <h2 style="font-size:20px">Also worth checking</h2>
+    <p>These can't be read automatically, so open them now and then.</p>
+    <div class="manual" id="manual"></div>
+  </section>
+
+  <footer id="footer">Updated automatically by a GitHub Action. Jobs disappear from this list once their closing date passes or the advert is taken down.</footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var DATA_URL = "data/jobs.json";
+  var AREAS = ["Tyne & Wear", "Northumberland", "County Durham", "Tees Valley"];
+  var KINDS = [["job", "Jobs"], ["freelance", "Freelance"], ["volunteer", "Volunteer"], ["trustee", "Trustee"]];
+  var store = {
+    get: function (k, d) { try { var v = localStorage.getItem("nemj:" + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set: function (k, v) { try { localStorage.setItem("nemj:" + k, JSON.stringify(v)); } catch (e) {} }
+  };
+
+  // Visit tracking: a "session" lasts an hour, so refreshing doesn't wipe
+  // the "new" flags. lastVisit = when the previous session started.
+  (function () {
+    var cur = store.get("visitStart", null);
+    if (!cur || Date.now() - cur.t > 36e5) {
+      store.set("lastVisit", cur ? cur.iso : null);
+      store.set("visitStart", { t: Date.now(), iso: new Date().toISOString() });
+    }
+  })();
+
+  var state = {
+    q: "", sort: store.get("sort", "new"),
+    areas: new Set(), kinds: new Set(store.get("kinds", ["job", "freelance"])),
+    onlyNew: false, onlySaved: false, wider: store.get("wider", false),
+    saved: new Set(store.get("saved", [])),
+    lastVisit: store.get("lastVisit", null)
+  };
+  var data = { jobs: [], sources: [], manual: [] };
+  var $ = function (id) { return document.getElementById(id); };
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]; }); }
+  function d(iso) { if (!iso) return null; var p = iso.slice(0, 10).split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function daysUntil(iso) { var x = d(iso); return x ? Math.round((x - today) / 864e5) : null; }
+  function fmt(iso) { var x = d(iso); return x ? x.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) : ""; }
+  function ago(iso) {
+    if (!iso) return "";
+    var mins = Math.round((Date.now() - new Date(iso).getTime()) / 6e4);
+    if (mins < 60) return mins + " min ago";
+    var h = Math.round(mins / 60); if (h < 24) return h + (h === 1 ? " hour ago" : " hours ago");
+    var dd = Math.round(h / 24); return dd + (dd === 1 ? " day ago" : " days ago");
+  }
+  function isNew(j) {
+    var found = j.found_at || j.first_seen;
+    if (state.lastVisit) return found > state.lastVisit;
+    return -daysUntil(j.first_seen) <= 3;
+  }
+
+  function chip(label, pressed, n, onClick) {
+    var b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.setAttribute("aria-pressed", pressed ? "true" : "false");
+    b.innerHTML = esc(label) + (n != null ? '<span class="n">' + n + "</span>" : "");
+    b.addEventListener("click", onClick);
+    return b;
+  }
+
+  function baseFiltered(skip) {
+    var q = state.q.trim().toLowerCase();
+    return data.jobs.filter(function (j) {
+      if (!state.wider && j.wider) return false;
+      if (skip !== "kind" && state.kinds.size && !state.kinds.has(j.kind || "job")) return false;
+      if (skip !== "area" && state.areas.size && !state.areas.has(j.area)) return false;
+      if (state.onlySaved && !state.saved.has(j.id)) return false;
+      if (state.onlyNew && !isNew(j)) return false;
+      if (q) {
+        var hay = [j.title, j.org, j.location, j.area, j.source, j.salary, j.contract].join(" ").toLowerCase();
+        if (q.split(/\s+/).some(function (w) { return hay.indexOf(w) === -1; })) return false;
+      }
+      return true;
+    });
+  }
+
+  function renderChips() {
+    var areaBox = $("areas"); areaBox.innerHTML = "";
+    var pool = baseFiltered("area");
+    areaBox.appendChild(chip("All areas", state.areas.size === 0, pool.length, function () { state.areas.clear(); render(); }));
+    AREAS.forEach(function (a) {
+      var n = pool.filter(function (j) { return j.area === a; }).length;
+      areaBox.appendChild(chip(a, state.areas.has(a), n, function () {
+        state.areas.has(a) ? state.areas.delete(a) : state.areas.add(a); render();
+      }));
+    });
+    var kindBox = $("kinds"); kindBox.innerHTML = "";
+    var kpool = baseFiltered("kind");
+    KINDS.forEach(function (k) {
+      var n = kpool.filter(function (j) { return (j.kind || "job") === k[0]; }).length;
+      kindBox.appendChild(chip(k[1], state.kinds.has(k[0]), n, function () {
+        state.kinds.has(k[0]) ? state.kinds.delete(k[0]) : state.kinds.add(k[0]);
+        store.set("kinds", Array.from(state.kinds)); render();
+      }));
+    });
+  }
+
+  function sortJobs(list) {
+    var s = state.sort;
+    return list.slice().sort(function (a, b) {
+      if (s === "closing") return (a.closing || "9999").localeCompare(b.closing || "9999") || a.title.localeCompare(b.title);
+      if (s === "org") return (a.org || a.source || "").localeCompare(b.org || b.source || "") || a.title.localeCompare(b.title);
+      return (b.first_seen || "").localeCompare(a.first_seen || "") || (a.closing || "9999").localeCompare(b.closing || "9999");
+    });
+  }
+
+  var KIND_LABEL = { freelance: "Freelance", volunteer: "Volunteer", trustee: "Trustee" };
+
+  function card(j) {
+    var el = document.createElement("article");
+    var nw = isNew(j);
+    el.className = "label" + (nw ? " is-new" : "");
+    var left = daysUntil(j.closing);
+    var pills = [];
+    if (nw) pills.push('<span class="pill new">New</span>');
+    if (left !== null && left <= 2) pills.push('<span class="pill urgent">' + (left <= 0 ? "Closes today" : "Closes in " + left + (left === 1 ? " day" : " days")) + "</span>");
+    else if (left !== null && left <= 7) pills.push('<span class="pill soon">Closes in ' + left + " days</span>");
+    else if (left === null && j.closing_soon) pills.push('<span class="pill soon">Closing soon</span>');
+    if (KIND_LABEL[j.kind]) pills.push('<span class="pill kind">' + KIND_LABEL[j.kind] + "</span>");
+    if (j.wider) pills.push('<span class="pill wider">Outside NE</span>');
+    if (j.stale) pills.push('<span class="pill stale" title="This site couldn\'t be checked today. Still listed last time.">Unconfirmed</span>');
+
+    var meta = [];
+    meta.push('<span><span class="k">Area</span>' + esc(j.wider ? (j.location || "Elsewhere") : j.area) + "</span>");
+    if (j.salary) meta.push('<span><span class="k">Pay</span>' + esc(j.salary) + "</span>");
+    meta.push('<span><span class="k">Closes</span>' + (j.closing ? esc(fmt(j.closing)) : "Not stated") + "</span>");
+    if (j.contract) meta.push('<span><span class="k">Terms</span>' + esc(j.contract) + "</span>");
+    meta.push('<span><span class="k">Found</span>' + esc(fmt(j.first_seen)) + "</span>");
+
+    var org = j.org || "";
+    var via = (org && org !== j.source) ? " · via " + esc(j.source.split(" (")[0]) : "";
+    var saved = state.saved.has(j.id);
+    var also = (j.also_on || []).map(function (a) { return '<a href="' + esc(a.url) + '" target="_blank" rel="noopener">' + esc(a.source.split(" (")[0]) + "</a>"; });
+
+    el.innerHTML =
+      '<div class="main">' +
+        '<h3><a href="' + esc(j.url) + '" target="_blank" rel="noopener">' + esc(j.title) + "</a></h3>" +
+        '<div class="org">' + esc(org || j.source) + via + "</div>" +
+        '<div class="meta">' + meta.join("") + "</div>" +
+      "</div>" +
+      '<div class="side">' +
+        '<div class="pills">' + pills.join("") + "</div>" +
+        '<button type="button" class="save" aria-pressed="' + saved + '">' +
+          '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg>' + (saved ? "Saved" : "Save") +
+        "</button>" +
+      "</div>" +
+      (also.length ? '<div class="also">Also listed on ' + also.join(", ") + "</div>" : "");
+
+    el.querySelector(".save").addEventListener("click", function () {
+      state.saved.has(j.id) ? state.saved.delete(j.id) : state.saved.add(j.id);
+      store.set("saved", Array.from(state.saved)); render();
+    });
+    return el;
+  }
+
+  function render() {
+    renderChips();
+    var list = sortJobs(baseFiltered());
+    var box = $("list"); box.innerHTML = "";
+    if (!list.length) {
+      var e = document.createElement("div"); e.className = "empty";
+      e.textContent = data.jobs.length ? "No vacancies match these filters. Try clearing the search or picking all areas." : "No vacancies found yet. The list fills in after the first automatic check.";
+      box.appendChild(e);
+    } else {
+      var frag = document.createDocumentFragment();
+      list.forEach(function (j) { frag.appendChild(card(j)); });
+      box.appendChild(frag);
+    }
+    $("resultTitle").textContent = list.length + (list.length === 1 ? " vacancy" : " vacancies");
+    var hint = [];
+    if (state.areas.size) hint.push(Array.from(state.areas).join(", "));
+    if (state.q) hint.push("matching “" + state.q + "”");
+    $("resultHint").textContent = hint.join(" · ");
+  }
+
+  function renderStats() {
+    var visible = data.jobs.filter(function (j) { return !j.wider; });
+    var fresh = visible.filter(isNew).length;
+    var soon = visible.filter(function (j) { var l = daysUntil(j.closing); return l !== null && l <= 7; }).length;
+    var ok = data.sources.filter(function (s) { return s.status !== "error"; }).length;
+    $("stats").innerHTML =
+      "<span><b>" + visible.length + "</b> open vacancies</span>" +
+      '<span class="newcount"><b>' + fresh + "</b> new " + (state.lastVisit ? "since your last visit" : "in the last 3 days") + "</span>" +
+      "<span><b>" + soon + "</b> closing within 7 days</span>" +
+      "<span>Checked <b>" + ok + "/" + data.sources.length + "</b> sites " + esc(ago(data.generated_at)) + "</span>";
+  }
+
+  function renderSources() {
+    var rows = data.sources.slice().sort(function (a, b) {
+      var rank = { error: 0, ok: 1, empty: 2, none: 3 };
+      return (rank[a.status] - rank[b.status]) || a.name.localeCompare(b.name);
+    }).map(function (s) {
+      var txt = { ok: "Read OK", none: "Says no vacancies", empty: "Nothing listed", error: "Couldn't read" }[s.status] || s.status;
+      var extra = [];
+      if (s.changed_at) extra.push("page changed " + fmt(s.changed_at));
+      if (s.warning) extra.push(s.warning);
+      if (s.note) extra.push(s.note);
+      return "<tr>" +
+        '<td><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + "</a></td>" +
+        '<td class="hide-sm">' + esc(s.area) + "</td>" +
+        '<td class="num">' + (s.count || 0) + "</td>" +
+        '<td><span class="dot ' + esc(s.status) + '"></span><span class="status-text ' + esc(s.status) + '">' + esc(txt) + (extra.length ? " · " + esc(extra.join(" · ")) : "") + "</span></td>" +
+        "</tr>";
+    });
+    $("srcRows").innerHTML = rows.join("");
+    $("manual").innerHTML = (data.manual || []).map(function (m) {
+      return '<a href="' + esc(m.url) + '" target="_blank" rel="noopener">' + esc(m.name) + "</a>";
+    }).join("");
+  }
+
+  function wire() {
+    var q = $("q"), t;
+    q.addEventListener("input", function () { clearTimeout(t); t = setTimeout(function () { state.q = q.value; render(); }, 120); });
+    $("sort").value = state.sort;
+    $("sort").addEventListener("change", function (e) { state.sort = e.target.value; store.set("sort", state.sort); render(); });
+    $("onlyNew").addEventListener("change", function (e) { state.onlyNew = e.target.checked; render(); });
+    $("onlySaved").addEventListener("change", function (e) { state.onlySaved = e.target.checked; render(); });
+    $("wider").checked = state.wider;
+    $("wider").addEventListener("change", function (e) { state.wider = e.target.checked; store.set("wider", state.wider); render(); });
+  }
+
+  function start(json) {
+    data = json;
+    data.jobs = data.jobs || []; data.sources = data.sources || [];
+    if (data.sample) { $("banner").hidden = false; $("banner").textContent = data.sample; }
+    renderStats(); renderSources(); render();
+  }
+
+  wire();
+  if (window.NEMJ_DATA) { start(window.NEMJ_DATA); return; }
+  fetch(DATA_URL, { cache: "no-store" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(start)
+    .catch(function () {
+      $("stats").innerHTML = "<span>Couldn't load the job list. Try refreshing the page.</span>";
+      start({ jobs: [], sources: [], manual: [] });
+    });
+})();
+</script>
+</body>
+</html>
