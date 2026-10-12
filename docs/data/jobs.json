@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-10-12T05:32:16+00:00",
- "job_count": 112,
+ "generated_at": "2026-10-12T12:52:20+00:00",
+ "job_count": 116,
  "sources": [
   {
    "id": "alnwickcastle",
@@ -8,7 +8,7 @@
    "url": "https://www.alnwickcastle.com/jobs",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -22,10 +22,10 @@
    "url": "https://www.artsjobs.org.uk/jobs/search?regions_in_england%5B%5D=4",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 1,
-   "found_raw": 6
+   "found_raw": 7
   },
   {
    "id": "baltic",
@@ -33,13 +33,13 @@
    "url": "https://baltic.art/jobs-and-volunteering/",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
-   "status": "ok",
-   "count": 2,
-   "found_raw": 2,
-   "fingerprint": "f5228561a608a214",
-   "changed_at": "2026-10-06",
-   "snippet": "Jobs and Volunteering We are currently recruiting for: Hires and Events Manager Birds, Bees, Bikes and Trees Evaluator (Young People) For all employment vacancies at Baltic, candidates must have eligibility to work in the UK . Baltic is accredited as a Living Wage Employer . Our Living Wage commitme"
+   "checked_at": "2026-10-12T12:52:20+00:00",
+   "status": "none",
+   "count": 0,
+   "found_raw": 0,
+   "fingerprint": "57457ed71e6f238d",
+   "changed_at": "2026-10-12",
+   "snippet": "Jobs and Volunteering We are not currently recruiting for any roles at Baltic. When new opportunities become available, this page will be updated. For all employment vacancies at Baltic, candidates must have eligibility to work in the UK . Baltic is accredited as a Living Wage Employer . Our Living "
   },
   {
    "id": "bamburgh",
@@ -47,7 +47,7 @@
    "url": "https://www.bamburghcastle.com/recruitment/",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -61,7 +61,7 @@
    "url": "https://www.jobtrain.co.uk/beamishmuseum",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0
@@ -72,7 +72,7 @@
    "url": "https://culturejobs.org/job-region/england/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "error",
    "count": 0,
    "error": "HTTPError: 403 Client Error: Forbidden for url: https://culturejobs.org/job-region/england/",
@@ -84,7 +84,7 @@
    "url": "https://www.durhamcathedral.co.uk/more/jobs",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 1,
@@ -98,7 +98,7 @@
    "url": "https://www.english-heritage.org.uk/about/our-people/careers-with-us/job-search/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0
@@ -109,10 +109,10 @@
    "url": "https://www.jobs.ac.uk/search/?keywords=museum",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
-   "count": 14,
-   "found_raw": 100
+   "count": 15,
+   "found_raw": 102
   },
   {
    "id": "kynren",
@@ -120,7 +120,7 @@
    "url": "https://kynren.com/careers/",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -134,7 +134,7 @@
    "url": "https://www.museumdevelopmentnorth.org.uk/category/jobs/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 12,
    "found_raw": 12
@@ -145,11 +145,11 @@
    "url": "https://www.nationalmuseums.org.uk/jobs/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 23,
    "found_raw": 23,
-   "fingerprint": "99ad253d1bb05604",
+   "fingerprint": "d9d05ec1f5085938",
    "changed_at": "2026-10-12",
    "snippet": "Jobs Search here for jobs across the UK’s national and major regional museums, libraries and archives. For enquiries about any of the vacancies listed here please contact the relevant organisation directly. Click here for links to other museum sector jobs resources and vacancy listings Click here fo"
   },
@@ -159,10 +159,10 @@
    "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/search",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
-   "count": 96,
-   "found_raw": 96
+   "count": 105,
+   "found_raw": 105
   },
   {
    "id": "northeastjobs",
@@ -170,10 +170,10 @@
    "url": "https://www.northeastjobs.org.uk/alljobs",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 2,
-   "found_raw": 271
+   "found_raw": 272
   },
   {
    "id": "northeastmuseums",
@@ -181,12 +181,12 @@
    "url": "https://www.northeastmuseums.org.uk/about/jobs",
    "area": "Tyne & Wear",
    "note": "Most of their jobs are advertised via North East Jobs, which is also checked.",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 6,
    "found_raw": 6,
-   "fingerprint": "eb71fb0eb760648a",
-   "changed_at": "2026-10-07",
+   "fingerprint": "27f60fbd5ccb0c48",
+   "changed_at": "2026-10-12",
    "snippet": "Job opportunities at North East Museums Learn about careers at North East Museums, from current vacancies and staff benefits to Frequently Asked Questions about our recruitment process. Hello We are delighted that you are considering a career at North East Museums We welcome applications from all ba"
   },
   {
@@ -195,11 +195,11 @@
    "url": "https://jobsearch.northumberland.gov.uk/jobs",
    "area": "Northumberland",
    "note": "Durham County Council posts all its jobs on North East Jobs, which is already checked.",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
-   "found_raw": 6,
-   "fingerprint": "5669aed440991955",
+   "found_raw": 7,
+   "fingerprint": "86f745712eecf1b2",
    "changed_at": "2026-10-12",
    "snippet": "Jobs and careers with Northumberland County Council Search our vacancies (e.g. job title, skills) Anywhere Select country: All countries United Kingdom Location Save Contract Type Contract type Fixed Term Secondment Permanent Bank Flexible hours Agency Volunteer Consultancy Job Category All categori"
   },
@@ -209,7 +209,7 @@
    "url": "https://jobs.royalnavymuseums.org.uk/jobs.aspx",
    "area": "Tees Valley",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 2,
@@ -223,7 +223,7 @@
    "url": "https://www.sevenstories.org.uk/support-us/current-vacancies",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 2,
    "found_raw": 2,
@@ -237,7 +237,7 @@
    "url": "https://www.sunderlandculture.org.uk/jobs-opportunities/",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 1,
@@ -251,7 +251,7 @@
    "url": "https://www.alnwickgarden.com/alnwick-garden-careers/",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -265,7 +265,7 @@
    "url": "https://aucklandproject.org/support-us/jobs/",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -279,12 +279,12 @@
    "url": "https://thebowesmuseum.org.uk/jobs-and-volunteering/",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "ok",
-   "count": 1,
-   "found_raw": 1,
-   "fingerprint": "249fa80dbc7bc357",
-   "changed_at": "2026-10-08",
+   "count": 2,
+   "found_raw": 2,
+   "fingerprint": "d577c808e4f32ff5",
+   "changed_at": "2026-10-12",
    "snippet": "MENU Café Jobs and Volunteering The Bowes Museum’s a friendly and exciting place to work. With around 70 employees and over 60 volunteers, we’ve a wide range of skills and knowledge in the team and we’re often looking to add to it. 3 OPPORTUNITIES Volunteer Join our friendly team of volunteers to he"
   },
   {
@@ -293,7 +293,7 @@
    "url": "https://thecommonroom.org.uk/work-with-us/",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -307,7 +307,7 @@
    "url": "https://www.vindolanda.com/work-for-us",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-10-12T05:32:16+00:00",
+   "checked_at": "2026-10-12T12:52:20+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -356,20 +356,54 @@
  ],
  "jobs": [
   {
-   "title": "Flight Information Service Officer",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/22915/",
+   "title": "Facilities Coordinator",
+   "url": "https://thebowesmuseum.org.uk/jobs-and-volunteering/facilities-coordinator/",
+   "closing": null,
+   "salary": "£27,128.40 per year Closing Date:",
+   "location": "County Durham",
+   "id": "474ec9338a51",
+   "source_id": "bowes",
+   "source": "The Bowes Museum",
+   "org": "The Bowes Museum",
+   "area": "County Durham",
+   "kind": "job",
+   "first_seen": "2026-10-12",
+   "found_at": "2026-10-12T12:52:20+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
+   "title": "Museum Education and Outreach Coordinator (Part Time, Fixed Term)",
+   "url": "https://www.jobs.ac.uk/job/DTF896/museum-education-and-outreach-coordinator-part-time-fixed-term",
+   "org": "University of Cambridge – Faculty of Classics Museum of Classical Archaeology",
+   "location": "Cambridge",
+   "salary": "£31,236 to £35,608",
+   "closing": null,
+   "summary": "",
+   "wider": true,
+   "id": "caba7642eaa4",
+   "source_id": "jobsacuk",
+   "source": "jobs.ac.uk (university museums, galleries & archives)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-10-12",
+   "found_at": "2026-10-12T12:52:20+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
+   "title": "Operations Manager",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/22938/",
    "closing": null,
    "salary": "",
    "location": "Region-wide",
    "wider": true,
-   "id": "5b32d41ffacf",
+   "id": "62338ac9e433",
    "source_id": "nmdc",
    "source": "National Museum Directors' Council jobs",
    "org": "National Museum Directors' Council jobs",
    "area": "North East",
    "kind": "job",
    "first_seen": "2026-10-12",
-   "found_at": "2026-10-12T05:32:16+00:00",
+   "found_at": "2026-10-12T12:52:20+00:00",
    "last_seen": "2026-10-12"
   },
   {
@@ -463,6 +497,24 @@
    "last_seen": "2026-10-12"
   },
   {
+   "title": "Senior Experience Design Consultant",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180326",
+   "org": "National Trust – Heelis",
+   "location": "Swindon",
+   "salary": "£54,639",
+   "closing": "2026-10-25",
+   "posted": "2026-11-10",
+   "wider": true,
+   "id": "7a544c0f439a",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "freelance",
+   "first_seen": "2026-10-12",
+   "found_at": "2026-10-12T12:52:20+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
    "title": "Car Park Assistant",
    "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180352",
    "org": "National Trust – Erddig",
@@ -520,6 +572,42 @@
    "kind": "job",
    "first_seen": "2026-10-12",
    "found_at": "2026-10-12T05:32:16+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
+   "title": "AWS DevOps Engineer",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180477",
+   "org": "National Trust – Heelis",
+   "location": "Swindon",
+   "salary": "£60,000",
+   "closing": "2026-10-25",
+   "posted": "2026-11-10",
+   "wider": true,
+   "id": "70f6de6db23e",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-10-12",
+   "found_at": "2026-10-12T12:52:20+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
+   "title": "Food & Beverage Assistant Manager (Band 1)",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180546",
+   "org": "National Trust – Bedfordshire Prop",
+   "location": "Dunstable",
+   "salary": "£29,000",
+   "closing": "2026-10-25",
+   "posted": "2026-11-10",
+   "wider": true,
+   "id": "9b362e977fdd",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-10-12",
+   "found_at": "2026-10-12T12:52:20+00:00",
    "last_seen": "2026-10-12"
   },
   {
@@ -610,6 +698,24 @@
    "kind": "job",
    "first_seen": "2026-10-12",
    "found_at": "2026-10-12T05:32:16+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
+   "title": "Head of Strategy & Impact",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180725",
+   "org": "National Trust – Heelis",
+   "location": "Swindon",
+   "salary": "£80,000",
+   "closing": "2026-10-25",
+   "posted": "2026-11-10",
+   "wider": true,
+   "id": "1aae12f6221a",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-10-12",
+   "found_at": "2026-10-12T12:52:20+00:00",
    "last_seen": "2026-10-12"
   },
   {
@@ -858,23 +964,6 @@
    "last_seen": "2026-10-12"
   },
   {
-   "title": "Individual Giving and Campaigns Manager",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/22925/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "eea445532950",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-10-08",
-   "found_at": "2026-10-08T12:38:02+00:00",
-   "last_seen": "2026-10-12"
-  },
-  {
    "title": "Assistant Collection Manager for the Middle East Department",
    "url": "https://www.nationalmuseums.org.uk/jobs/job/22923/",
    "closing": null,
@@ -899,6 +988,23 @@
    "location": "Region-wide",
    "wider": true,
    "id": "8c87cf96194e",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-10-08",
+   "found_at": "2026-10-08T12:38:02+00:00",
+   "last_seen": "2026-10-12"
+  },
+  {
+   "title": "Individual Giving and Campaigns Manager",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/22925/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "eea445532950",
    "source_id": "nmdc",
    "source": "National Museum Directors' Council jobs",
    "org": "National Museum Directors' Council jobs",
@@ -1053,22 +1159,6 @@
    "kind": "trustee",
    "first_seen": "2026-10-07",
    "found_at": "2026-10-07T05:30:29+00:00",
-   "last_seen": "2026-10-12"
-  },
-  {
-   "title": "Birds, Bees, Bikes and Trees Evaluator (Young People)",
-   "url": "https://baltic.art/jobs-and-volunteering/",
-   "closing": null,
-   "salary": "",
-   "location": "Tyne & Wear",
-   "id": "573f471d56a6",
-   "source_id": "baltic",
-   "source": "BALTIC Centre for Contemporary Art",
-   "org": "BALTIC Centre for Contemporary Art",
-   "area": "Tyne & Wear",
-   "kind": "job",
-   "first_seen": "2026-10-06",
-   "found_at": "2026-10-06T05:29:21+00:00",
    "last_seen": "2026-10-12"
   },
   {
@@ -1490,22 +1580,6 @@
    "last_seen": "2026-10-12"
   },
   {
-   "title": "Hires and Events Manager",
-   "url": "https://baltic.art/jobs-and-volunteering/",
-   "closing": null,
-   "salary": "",
-   "location": "Tyne & Wear",
-   "id": "14bf228ec6b6",
-   "source_id": "baltic",
-   "source": "BALTIC Centre for Contemporary Art",
-   "org": "BALTIC Centre for Contemporary Art",
-   "area": "Tyne & Wear",
-   "kind": "job",
-   "first_seen": "2026-10-04",
-   "found_at": "2026-10-04T08:40:00+00:00",
-   "last_seen": "2026-10-12"
-  },
-  {
    "title": "Catering Assistant",
    "url": "https://thebowesmuseum.org.uk/jobs-and-volunteering/catering-assistant/",
    "closing": null,
@@ -1631,6 +1705,30 @@
    "last_seen": "2026-10-12"
   },
   {
+   "title": "Community, Participation & Volunteering Co-ordinator",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180107",
+   "org": "National Trust – Oxburgh Hall",
+   "location": "Kings Lynn",
+   "salary": "£27,612",
+   "closing": "2026-10-25",
+   "posted": "2026-11-10",
+   "wider": true,
+   "id": "7dcbf35f7cde",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-09-27",
+   "found_at": "2026-10-06T05:29:21+00:00",
+   "last_seen": "2026-10-12",
+   "also_on": [
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180479"
+    }
+   ]
+  },
+  {
    "title": "Collections Assistant",
    "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180380",
    "org": "National Trust – Saltram",
@@ -1733,24 +1831,6 @@
    ]
   },
   {
-   "title": "Community, Participation & Volunteering Co-ordinator",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180479",
-   "org": "National Trust – Brownsea Island",
-   "location": "Poole",
-   "salary": "£27,612",
-   "closing": "2026-10-18",
-   "posted": "2026-11-10",
-   "wider": true,
-   "id": "7dcbf35f7cde",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-27",
-   "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-10-12"
-  },
-  {
    "title": "Museum Assistant",
    "url": "https://www.museumdevelopmentnorth.org.uk/fleetwood-museum-museum-assistant/",
    "org": "Fleetwood Museum",
@@ -1790,9 +1870,9 @@
   },
   {
    "title": "Food & Beverage Team Leader",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180568",
-   "org": "National Trust – Basildon Park",
-   "location": "Reading",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180518",
+   "org": "National Trust – Longshaw Estate",
+   "location": "Sheffield",
    "salary": "£25,838",
    "closing": "2026-10-25",
    "posted": "2026-11-10",
@@ -1806,6 +1886,18 @@
    "found_at": "2026-10-04T08:40:00+00:00",
    "last_seen": "2026-10-12",
    "also_on": [
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180537"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180543"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180568"
+    },
     {
      "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180169"
@@ -2116,6 +2208,34 @@
     {
      "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180370"
+    }
+   ]
+  },
+  {
+   "title": "Retail Team Member",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180309",
+   "org": "National Trust – Dunham Massey",
+   "location": "Greater Manchester",
+   "salary": "£24,862",
+   "closing": "2026-10-18",
+   "posted": "2026-11-10",
+   "wider": true,
+   "id": "3aa7d444adbb",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-04-10",
+   "found_at": "2026-10-06T05:29:21+00:00",
+   "last_seen": "2026-10-12",
+   "also_on": [
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180400"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180439"
     }
    ]
   },
@@ -2482,30 +2602,6 @@
    "first_seen": "2026-04-10",
    "found_at": "2026-10-06T05:29:21+00:00",
    "last_seen": "2026-10-12"
-  },
-  {
-   "title": "Retail Team Member",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180400",
-   "org": "National Trust – Sizergh",
-   "location": "Kendal",
-   "salary": "£24,862",
-   "closing": "2026-10-18",
-   "posted": "2026-04-10",
-   "wider": true,
-   "id": "3aa7d444adbb",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-04-10",
-   "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-10-12",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180439"
-    }
-   ]
   },
   {
    "title": "Business Services Co-ordinator (place based)",
