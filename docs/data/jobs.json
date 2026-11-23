@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-22T13:20:31+00:00",
- "job_count": 115,
+ "generated_at": "2026-11-23T15:57:36+00:00",
+ "job_count": 117,
  "sources": [
   {
    "id": "alnwickcastle",
@@ -8,7 +8,7 @@
    "url": "https://www.alnwickcastle.com/jobs",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -22,7 +22,7 @@
    "url": "https://www.artsjobs.org.uk/jobs/search?regions_in_england%5B%5D=4",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 13
@@ -33,7 +33,7 @@
    "url": "https://baltic.art/jobs-and-volunteering/",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 1,
@@ -47,7 +47,7 @@
    "url": "https://www.bamburghcastle.com/recruitment/",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -61,10 +61,10 @@
    "url": "https://www.jobtrain.co.uk/beamishmuseum",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
-   "count": 3,
-   "found_raw": 3
+   "count": 5,
+   "found_raw": 5
   },
   {
    "id": "culturejobs",
@@ -72,7 +72,7 @@
    "url": "https://culturejobs.org/job-region/england/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "error",
    "count": 0,
    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
@@ -84,7 +84,7 @@
    "url": "https://www.durhamcathedral.co.uk/more/jobs",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 1,
@@ -98,7 +98,7 @@
    "url": "https://www.english-heritage.org.uk/about/our-people/careers-with-us/job-search/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0
@@ -109,10 +109,11 @@
    "url": "https://www.jobs.ac.uk/search/?keywords=museum",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
-   "status": "ok",
-   "count": 20,
-   "found_raw": 99
+   "checked_at": "2026-11-23T15:57:36+00:00",
+   "status": "error",
+   "count": 0,
+   "error": "HTTPError: 500 Server Error: Internal Server Error for url: https://www.jobs.ac.uk/search/?keywords=museum&sortOrder=1&pageSize=25&startIndex=1",
+   "changed_at": null
   },
   {
    "id": "kynren",
@@ -120,7 +121,7 @@
    "url": "https://kynren.com/careers/",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -134,10 +135,10 @@
    "url": "https://www.museumdevelopmentnorth.org.uk/category/jobs/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
-   "count": 17,
-   "found_raw": 17
+   "count": 11,
+   "found_raw": 11
   },
   {
    "id": "nmdc",
@@ -145,12 +146,12 @@
    "url": "https://www.nationalmuseums.org.uk/jobs/",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
-   "count": 22,
-   "found_raw": 22,
-   "fingerprint": "85d2f5bfd3ee524d",
-   "changed_at": "2026-11-22",
+   "count": 23,
+   "found_raw": 23,
+   "fingerprint": "38863539cd1895f2",
+   "changed_at": "2026-11-23",
    "snippet": "Jobs Search here for jobs across the UK’s national and major regional museums, libraries and archives. For enquiries about any of the vacancies listed here please contact the relevant organisation directly. Click here for links to other museum sector jobs resources and vacancy listings Click here fo"
   },
   {
@@ -159,10 +160,10 @@
    "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/search",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
-   "count": 78,
-   "found_raw": 78
+   "count": 73,
+   "found_raw": 73
   },
   {
    "id": "northeastjobs",
@@ -170,10 +171,10 @@
    "url": "https://www.northeastjobs.org.uk/alljobs",
    "area": "Region-wide",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
    "count": 1,
-   "found_raw": 285
+   "found_raw": 259
   },
   {
    "id": "northeastmuseums",
@@ -181,7 +182,7 @@
    "url": "https://www.northeastmuseums.org.uk/about/jobs",
    "area": "Tyne & Wear",
    "note": "Most of their jobs are advertised via North East Jobs, which is also checked.",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -195,12 +196,12 @@
    "url": "https://jobsearch.northumberland.gov.uk/jobs",
    "area": "Northumberland",
    "note": "Durham County Council posts all its jobs on North East Jobs, which is already checked.",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
-   "found_raw": 6,
-   "fingerprint": "3b88dff280969e1b",
-   "changed_at": "2026-11-21",
+   "found_raw": 5,
+   "fingerprint": "231c9c066f6bf7bf",
+   "changed_at": "2026-11-23",
    "snippet": "Jobs and careers with Northumberland County Council Search our vacancies (e.g. job title, skills) Anywhere Select country: All countries United Kingdom Location Save Contract Type Contract type Fixed Term Secondment Permanent Bank Flexible hours Agency Volunteer Consultancy Job Category All categori"
   },
   {
@@ -209,13 +210,13 @@
    "url": "https://jobs.royalnavymuseums.org.uk/jobs.aspx",
    "area": "Tees Valley",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
-   "found_raw": 4,
-   "fingerprint": "0c5c759f1f884e72",
-   "changed_at": "2026-11-18",
-   "snippet": "1 1 4 Jobs found Keyword Search Show Advanced Filters Show only internal jobs Location 2 miles 5 miles 10 miles 20 miles 40 miles Company Branches Departments Brands Sector Job Type Salary Search Reset Details / Apply Campaign Lead Campaign Lead Royal Navy Museums, Portsmouth Portsmouth Salary (Grad"
+   "found_raw": 5,
+   "fingerprint": "b18ebea6802916b4",
+   "changed_at": "2026-11-23",
+   "snippet": "1 1 5 Jobs found Keyword Search Show Advanced Filters Show only internal jobs Location 2 miles 5 miles 10 miles 20 miles 40 miles Company Branches Departments Brands Sector Job Type Salary Search Reset Details / Apply Finance Officer Finance Officer Royal Navy Museums, Portsmouth Portsmouth £28,724 "
   },
   {
    "id": "sevenstories",
@@ -223,7 +224,7 @@
    "url": "https://www.sevenstories.org.uk/support-us/current-vacancies",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -237,7 +238,7 @@
    "url": "https://www.sunderlandculture.org.uk/jobs-opportunities/",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 1,
@@ -251,7 +252,7 @@
    "url": "https://www.alnwickgarden.com/alnwick-garden-careers/",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "none",
    "count": 0,
    "found_raw": 0,
@@ -265,7 +266,7 @@
    "url": "https://aucklandproject.org/support-us/jobs/",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -279,7 +280,7 @@
    "url": "https://thebowesmuseum.org.uk/jobs-and-volunteering/",
    "area": "County Durham",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "ok",
    "count": 1,
    "found_raw": 1,
@@ -293,7 +294,7 @@
    "url": "https://thecommonroom.org.uk/work-with-us/",
    "area": "Tyne & Wear",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -307,7 +308,7 @@
    "url": "https://www.vindolanda.com/work-for-us",
    "area": "Northumberland",
    "note": "",
-   "checked_at": "2026-11-22T13:20:31+00:00",
+   "checked_at": "2026-11-23T15:57:36+00:00",
    "status": "empty",
    "count": 0,
    "found_raw": 0,
@@ -356,6 +357,521 @@
  ],
  "jobs": [
   {
+   "title": "Paid Creative Placement - Learning Assistant",
+   "url": "https://www.jobtrain.co.uk/beamishmuseum/Job/JobDetail?JobId=171",
+   "location": "The Bowes Museum",
+   "salary": "£254.20 per week plus £25 travel bursary",
+   "closing": null,
+   "contract": "Into the Light",
+   "closing_soon": false,
+   "id": "1261359c8f3f",
+   "source_id": "beamish",
+   "source": "Beamish Museum",
+   "org": "Beamish Museum",
+   "area": "County Durham",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Paid Creative Placement - Collections Project Assistant",
+   "url": "https://www.jobtrain.co.uk/beamishmuseum/Job/JobDetail?JobId=170",
+   "location": "The Bowes Museum",
+   "salary": "£254.20 per week plus £25 travel bursary",
+   "closing": null,
+   "contract": "Into the Light",
+   "closing_soon": false,
+   "id": "93148451ac71",
+   "source_id": "beamish",
+   "source": "Beamish Museum",
+   "org": "Beamish Museum",
+   "area": "County Durham",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Preventive Conservation Intern",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23087/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "d6363e3fa46d",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Service Delivery Manager",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23085/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "7785f24da2ed",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Exhibitions Project Manager",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23086/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "19621f3ea028",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "People Advisor",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23073/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "57174a69894e",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Technician",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23066/",
+   "closing": null,
+   "salary": "£38000 per annum",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "95dd0e30c0de",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Visitor Operations Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180979",
+   "org": "National Trust – Red House",
+   "location": "Bexleyheath",
+   "salary": "£34,685",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "d2b7b18be0f0",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Communications & Marketing Officer",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181226",
+   "org": "National Trust – Calke Abbey",
+   "location": "Derby",
+   "salary": "£27,612",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "c0402e3d240e",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Programme Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181415",
+   "org": "National Trust – Heelis",
+   "location": "Swindon",
+   "salary": "£45,084",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "815b9d0ce941",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Lettings Officer",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181531",
+   "org": "National Trust – Altrincham - RO",
+   "location": "Altrincham",
+   "salary": "£33,000",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "9f292a2d908f",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Ranger",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181538",
+   "org": "National Trust – Northumberland Coast",
+   "location": "Low Newton-by-the-Sea",
+   "salary": "£27,612",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": false,
+   "id": "742d724b5c7b",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "Northumberland",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Harbour Master",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181539",
+   "org": "National Trust – Blakeney Point",
+   "location": "Holt",
+   "salary": "£27,612",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "ce2d830a33a0",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Food & Beverage Team Member x 6",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181571",
+   "org": "National Trust – Anglesey Abbey",
+   "location": "Cambridge",
+   "salary": "£24,862",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "85c76a3e5f91",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "General Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181583",
+   "org": "National Trust – Nostell Priory",
+   "location": "Wakefield",
+   "salary": "£54,639",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "e9e98cc89e55",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Senior Ranger x 2",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181585",
+   "org": "National Trust – Coniston",
+   "location": "Coniston",
+   "salary": "£30,966",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "8d7aaba736ae",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Experience Development Delivery Partner",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181620",
+   "org": "National Trust – Tredegar House",
+   "location": "Newport",
+   "salary": "£45,084",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "99f286b7029c",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Food & Beverage Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181678",
+   "org": "National Trust – Little Moreton",
+   "location": "Congleton",
+   "salary": "£30,966",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "533c9849afb7",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Senior Project & Programme Co-ordinator",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181691",
+   "org": "National Trust – Heelis",
+   "location": "Swindon",
+   "salary": "£27,612",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "8ca4c450cdef",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "» more information",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23074/",
+   "closing": "2026-12-03",
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "5dea7f4573f9",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Regional Technical Delivery Officer",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181372",
+   "org": "National Trust – Heelis",
+   "location": "Swindon",
+   "salary": "£30,966",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "599348b62159",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Retail Team Member x 2",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181517",
+   "org": "National Trust – Knole House",
+   "location": "Sevenoaks",
+   "salary": "£24,862",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "4ed9284e6141",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Food & Beverage Team Leader",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181580",
+   "org": "National Trust – South Peak",
+   "location": "Ashbourne",
+   "salary": "£25,838",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "c758525d273f",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Project Manager II",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181608",
+   "org": "National Trust – Hardwick Consultancy Hub",
+   "location": "Chesterfield",
+   "salary": "£45,084",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "e3fb7e4866aa",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Commercial Event Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181622",
+   "org": "National Trust – Bath Assembly Rooms",
+   "location": "Bath",
+   "salary": "£34,437",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "919d7c0fe8e5",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Assistant Land Use & Nature Delivery Partner",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181644",
+   "org": "National Trust – Mid and SE Wales",
+   "location": "Brecon",
+   "salary": "£30,966",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "01bc7ba88aec",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Project Officer",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181701",
+   "org": "National Trust – Manchester Hub",
+   "location": "Manchester",
+   "salary": "£30,966",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "70804f5701a0",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Specialist Delivery Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181714",
+   "org": "National Trust – Tredegar House",
+   "location": "Newport",
+   "salary": "£54,639",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "ed514f06d65d",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Lead Gallery Technician",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23066/",
+   "closing": "2026-11-25",
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "f358e077d358",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-23",
+   "found_at": "2026-11-23T15:57:36+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
    "title": "Packaging & Delivery Service Senior Assistant",
    "url": "https://www.nationalmuseums.org.uk/jobs/job/23084/",
    "closing": null,
@@ -370,7 +886,7 @@
    "kind": "job",
    "first_seen": "2026-11-22",
    "found_at": "2026-11-22T13:20:31+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Events Manager (Maternity Cover)",
@@ -388,7 +904,8 @@
    "kind": "job",
    "first_seen": "2026-11-21",
    "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Collections Manager – Vertebrate Collections",
@@ -406,75 +923,8 @@
    "kind": "job",
    "first_seen": "2026-11-21",
    "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Archive Cataloguer (17-month FTC)",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23080/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "aeba0c0b3308",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-21",
-   "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Archivist",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23080/",
-   "closing": null,
-   "salary": "£28682 per annum + 17-month fi",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "2bbae42b5f3f",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-21",
-   "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Estates Manager",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23081/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "e11f2460f649",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-21",
-   "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "HR Advisor",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23082/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "475e667db612",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-21",
-   "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Head of Development Office",
@@ -491,7 +941,75 @@
    "kind": "job",
    "first_seen": "2026-11-21",
    "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "HR Advisor",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23082/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "475e667db612",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-21",
+   "found_at": "2026-11-21T13:27:55+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Estates Manager",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23081/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "e11f2460f649",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-21",
+   "found_at": "2026-11-21T13:27:55+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Archive Cataloguer (17-month FTC)",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23080/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "aeba0c0b3308",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-21",
+   "found_at": "2026-11-21T13:27:55+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Archivist",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23080/",
+   "closing": null,
+   "salary": "£28682 per annum + 17-month fi",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "2bbae42b5f3f",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-21",
+   "found_at": "2026-11-21T13:27:55+00:00",
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Archives Assistant",
@@ -509,7 +1027,7 @@
    "kind": "job",
    "first_seen": "2026-11-21",
    "found_at": "2026-11-21T13:27:55+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Relief Verger",
@@ -525,7 +1043,7 @@
    "kind": "job",
    "first_seen": "2026-11-20",
    "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Data Acquisition Manager",
@@ -543,7 +1061,8 @@
    "kind": "job",
    "first_seen": "2026-11-20",
    "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Associate Lecturer (Exhibition) - Artificial Intelligence and Digital Art (AIDA) 0.2FTE",
@@ -561,41 +1080,8 @@
    "kind": "job",
    "first_seen": "2026-11-20",
    "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Events Manager (Maternity Cover)",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23076/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "0f805f990459",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-20",
-   "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Collections Manager – Vertebrate Collections",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23077/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "b64752938800",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-20",
-   "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Senior Chief Building Services Technician",
@@ -612,7 +1098,41 @@
    "kind": "job",
    "first_seen": "2026-11-20",
    "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Collections Manager – Vertebrate Collections",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23077/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "b64752938800",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-20",
+   "found_at": "2026-11-20T13:59:58+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Events Manager (Maternity Cover)",
+   "url": "https://www.nationalmuseums.org.uk/jobs/job/23076/",
+   "closing": null,
+   "salary": "",
+   "location": "Region-wide",
+   "wider": true,
+   "id": "0f805f990459",
+   "source_id": "nmdc",
+   "source": "National Museum Directors' Council jobs",
+   "org": "National Museum Directors' Council jobs",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-11-20",
+   "found_at": "2026-11-20T13:59:58+00:00",
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Development Manager: Corporate Partnerships",
@@ -629,7 +1149,7 @@
    "kind": "job",
    "first_seen": "2026-11-20",
    "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Directorship of the Museum of Archaeology and Anthropology and Professorship of Material Culture",
@@ -646,7 +1166,7 @@
    "kind": "job",
    "first_seen": "2026-11-20",
    "found_at": "2026-11-20T13:59:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Paid Creative Placement-Communications Assistant",
@@ -664,7 +1184,7 @@
    "kind": "job",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Paid Creative Placement - TIN Arts Programme Assistant",
@@ -682,7 +1202,7 @@
    "kind": "job",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "National Gallery Trustees",
@@ -701,7 +1221,7 @@
    "kind": "job",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Freelance Community Consultant",
@@ -720,24 +1240,7 @@
    "kind": "freelance",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "People Advisor",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23074/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "e1b222d642ba",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-19",
-   "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Frames Conservator - Fixed Term Contract.",
@@ -754,7 +1257,7 @@
    "kind": "job",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Young Patrons Coordinator",
@@ -771,7 +1274,7 @@
    "kind": "job",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Senior Operational Lead",
@@ -788,58 +1291,7 @@
    "kind": "job",
    "first_seen": "2026-11-19",
    "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "» more information",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23073/",
-   "closing": "2026-12-03",
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "63884b4a04ef",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-19",
-   "found_at": "2026-11-19T14:25:58+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Lead Graphic Designer",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23063/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "4ac6b8c47e0a",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-18",
-   "found_at": "2026-11-18T13:57:36+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Travel Trade and Sales Executive",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23064/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "fd27bfd71335",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-18",
-   "found_at": "2026-11-18T13:57:36+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "UX/UI Designer",
@@ -856,41 +1308,7 @@
    "kind": "job",
    "first_seen": "2026-11-18",
    "found_at": "2026-11-18T13:57:36+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Finance Business Partner - Commercial & Performance",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23061/",
-   "closing": null,
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "36c3522b1ce8",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-18",
-   "found_at": "2026-11-18T13:57:36+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Campaign Lead",
-   "url": "https://www.nationalmuseums.org.uk/jobs/job/23062/",
-   "closing": "2026-12-14",
-   "salary": "",
-   "location": "Region-wide",
-   "wider": true,
-   "id": "6c89074b80aa",
-   "source_id": "nmdc",
-   "source": "National Museum Directors' Council jobs",
-   "org": "National Museum Directors' Council jobs",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-18",
-   "found_at": "2026-11-18T13:57:36+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Senior Philanthropy Manager",
@@ -908,7 +1326,8 @@
    "kind": "job",
    "first_seen": "2026-11-17",
    "found_at": "2026-11-17T14:23:04+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Conservation Technician",
@@ -926,7 +1345,8 @@
    "kind": "job",
    "first_seen": "2026-11-17",
    "found_at": "2026-11-17T14:23:04+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Information Governance Operations Specialist",
@@ -944,7 +1364,8 @@
    "kind": "job",
    "first_seen": "2026-11-17",
    "found_at": "2026-11-17T14:23:04+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Postdoctoral Researcher, RS Plant-fungal interactions",
@@ -962,7 +1383,8 @@
    "kind": "job",
    "first_seen": "2026-11-17",
    "found_at": "2026-11-17T14:23:04+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Senior Operational Lead (Galleries)",
@@ -981,7 +1403,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Collections and Communications Assistant",
@@ -1000,7 +1422,31 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Volunteer Experience Co-ordinator",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181593",
+   "org": "National Trust – Chirk Castle",
+   "location": "Wrexham",
+   "salary": "£27,612",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "fdf4929b91fe",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "volunteer",
+   "first_seen": "2026-11-16",
+   "found_at": "2026-11-16T13:38:27+00:00",
+   "last_seen": "2026-11-23",
+   "also_on": [
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181145"
+    }
+   ]
   },
   {
    "title": "Digital Product Manager",
@@ -1018,7 +1464,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Collections & House Officer",
@@ -1036,7 +1482,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Chef",
@@ -1054,7 +1500,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
     {
      "source": "National Trust (North East properties)",
@@ -1065,24 +1511,6 @@
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181343"
     }
    ]
-  },
-  {
-   "title": "Volunteer Experience Co-ordinator",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181145",
-   "org": "National Trust – Speke Hall",
-   "location": "Liverpool",
-   "salary": "£27,612",
-   "closing": "2026-11-29",
-   "posted": "2026-11-16",
-   "wider": true,
-   "id": "fdf4929b91fe",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "volunteer",
-   "first_seen": "2026-11-16",
-   "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
   },
   {
    "title": "Finance Business Partner",
@@ -1100,7 +1528,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-18T13:57:36+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Early Careers & Youth Engagement Specialist",
@@ -1118,7 +1546,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Nature Engagement Officer",
@@ -1136,7 +1564,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Lock Keeper",
@@ -1154,7 +1582,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "External Affairs Officer",
@@ -1172,7 +1600,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "General Cleaner",
@@ -1190,12 +1618,8 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181405"
-    },
     {
      "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181456"
@@ -1218,7 +1642,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Head Gardener",
@@ -1236,7 +1660,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Senior Building Surveyor - Architect",
@@ -1254,7 +1678,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Ranger - Lengthsperson",
@@ -1272,7 +1696,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Food and Beverage Team Leader",
@@ -1290,13 +1714,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181518"
-    }
-   ]
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Community Engagement Co-ordinator",
@@ -1314,67 +1732,7 @@
    "kind": "job",
    "first_seen": "2026-11-16",
    "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Service Team Member",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181424",
-   "org": "National Trust – Thames Valley",
-   "location": "Reading",
-   "salary": "£25,838",
-   "closing": "2026-11-22",
-   "posted": "2026-11-16",
-   "wider": true,
-   "id": "e58885efac1e",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-16",
-   "found_at": "2026-11-17T14:23:04+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181428"
-    }
-   ]
-  },
-  {
-   "title": "F&B Experience Officer",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181458",
-   "org": "National Trust – Heelis",
-   "location": "Swindon",
-   "salary": "£30,966",
-   "closing": "2026-11-22",
-   "posted": "2026-11-16",
-   "wider": true,
-   "id": "f1bf688e9836",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-16",
-   "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Senior Web Operations Engineer",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181528",
-   "org": "National Trust – Heelis",
-   "location": "Swindon",
-   "salary": "£60,000",
-   "closing": "2026-11-22",
-   "posted": "2026-11-16",
-   "wider": true,
-   "id": "5bfe814c6dd4",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-16",
-   "found_at": "2026-11-16T13:38:27+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Documentation Project Manager (Archivist)",
@@ -1392,7 +1750,8 @@
    "kind": "job",
    "first_seen": "2026-11-14",
    "found_at": "2026-11-14T12:10:38+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "RICheS Digital Research Resource Specialist",
@@ -1410,7 +1769,8 @@
    "kind": "job",
    "first_seen": "2026-11-14",
    "found_at": "2026-11-14T12:10:38+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "PhD Studentship - Sentinels of the Sea: What can Marine Mammals tell us about Biodiversity Change in UK Waters?",
@@ -1428,7 +1788,8 @@
    "kind": "job",
    "first_seen": "2026-11-14",
    "found_at": "2026-11-14T12:10:38+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Finance Business Partner - Commercial & Performance",
@@ -1446,7 +1807,7 @@
    "kind": "job",
    "first_seen": "2026-11-13",
    "found_at": "2026-11-13T13:06:09+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Senior Chief Building Services Technician",
@@ -1464,7 +1825,8 @@
    "kind": "job",
    "first_seen": "2026-11-12",
    "found_at": "2026-11-12T13:46:05+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Data Access and Use Assistant",
@@ -1482,7 +1844,8 @@
    "kind": "job",
    "first_seen": "2026-11-12",
    "found_at": "2026-11-12T13:46:05+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Stock Assistant",
@@ -1500,7 +1863,8 @@
    "kind": "job",
    "first_seen": "2026-11-11",
    "found_at": "2026-11-11T12:43:12+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Natural History Museum Commercial Trustee",
@@ -1519,7 +1883,7 @@
    "kind": "trustee",
    "first_seen": "2026-11-11",
    "found_at": "2026-11-12T13:46:05+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Ecommerce Assistant",
@@ -1537,7 +1901,8 @@
    "kind": "job",
    "first_seen": "2026-11-10",
    "found_at": "2026-11-10T13:27:52+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Collections Assistant (0.6 FTE)",
@@ -1555,7 +1920,8 @@
    "kind": "job",
    "first_seen": "2026-11-10",
    "found_at": "2026-11-10T13:27:52+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Administration Assistant",
@@ -1572,26 +1938,7 @@
    "kind": "job",
    "first_seen": "2026-11-07",
    "found_at": "2026-11-07T11:43:32+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Evaluator",
-   "url": "https://www.museumdevelopmentnorth.org.uk/university-of-salford-evaluator/",
-   "org": "University of Salford",
-   "closing": null,
-   "salary": "",
-   "contract": "",
-   "posted": "2026-11-06",
-   "category": "Jobs and Volunteering",
-   "wider": true,
-   "id": "978812267c8c",
-   "source_id": "mdnorth",
-   "source": "Museum Development North – jobs board",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-06",
-   "found_at": "2026-11-07T11:43:32+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Archive Consultant",
@@ -1610,7 +1957,7 @@
    "kind": "freelance",
    "first_seen": "2026-11-06",
    "found_at": "2026-11-07T11:43:32+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Head of Zoology",
@@ -1628,7 +1975,8 @@
    "kind": "job",
    "first_seen": "2026-11-05",
    "found_at": "2026-11-05T13:11:42+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Clinical Researcher (Data Curator) (E62)",
@@ -1646,7 +1994,8 @@
    "kind": "job",
    "first_seen": "2026-11-05",
    "found_at": "2026-11-05T13:11:42+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Finance Trustee",
@@ -1665,7 +2014,7 @@
    "kind": "trustee",
    "first_seen": "2026-11-05",
    "found_at": "2026-11-06T12:57:01+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Engagement Assistant",
@@ -1684,26 +2033,7 @@
    "kind": "job",
    "first_seen": "2026-11-04",
    "found_at": "2026-11-04T12:59:08+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Treasurer",
-   "url": "https://www.museumdevelopmentnorth.org.uk/ripon-museum-trust-treasurer/",
-   "org": "Ripon Museum Trust",
-   "closing": null,
-   "salary": "",
-   "contract": "",
-   "posted": "2026-11-04",
-   "category": "Jobs and Volunteering",
-   "wider": true,
-   "id": "93948d56b38f",
-   "source_id": "mdnorth",
-   "source": "Museum Development North – jobs board",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-04",
-   "found_at": "2026-11-04T12:59:08+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Audience Development Officer",
@@ -1722,45 +2052,7 @@
    "kind": "job",
    "first_seen": "2026-11-04",
    "found_at": "2026-11-04T12:59:08+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Director of Collections and Engagement",
-   "url": "https://www.museumdevelopmentnorth.org.uk/peoples-history-museum-director-of-collections-and-engagement/",
-   "org": "People’s History Museum",
-   "closing": null,
-   "salary": "£44,000-£48,000 p/a full time or £35,200-£38,400 p/a part time (0.8 FTE) plus 10% pension contribution Location: Manchester, M3 3ER Hours: Full time (35 hours per week) or part time 0.8 (28 hours per week). Flexible working or requests for alternative part time arrangements will […]",
-   "contract": "",
-   "posted": "2026-11-02",
-   "category": "Jobs and Volunteering",
-   "wider": true,
-   "id": "7a4a89522522",
-   "source_id": "mdnorth",
-   "source": "Museum Development North – jobs board",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-02",
-   "found_at": "2026-11-02T13:17:37+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Income Generation Officer",
-   "url": "https://www.museumdevelopmentnorth.org.uk/port-sunlight-income-generation-officer/",
-   "org": "Port Sunlight",
-   "closing": null,
-   "salary": "£30,000 (£18,000 pro-rata) Closing Date: 23 November, 12 noon This varied and rewarding fundraising role works across Port Sunlight Village Trust’s teams to grow income through funders, corporate and individual supporters. You will work with the Head of Communications & Development to deliver the fundraising strategy […]",
-   "contract": "",
-   "posted": "2026-11-02",
-   "category": "Jobs and Volunteering",
-   "wider": true,
-   "id": "856aebb9ab36",
-   "source_id": "mdnorth",
-   "source": "Museum Development North – jobs board",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-11-02",
-   "found_at": "2026-11-02T13:17:37+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Head of Commercial",
@@ -1778,7 +2070,8 @@
    "kind": "job",
    "first_seen": "2026-10-30",
    "found_at": "2026-10-30T05:53:47+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Chair of the Board of Trustees (Voluntary)",
@@ -1794,63 +2087,25 @@
    "kind": "volunteer",
    "first_seen": "2026-10-29",
    "found_at": "2026-10-29T05:53:07+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
-   "title": "Youth Engagement Officer",
-   "url": "https://www.museumdevelopmentnorth.org.uk/council-for-british-archaeology-youth-engagement-officer/",
-   "org": "Council for British Archaeology",
-   "closing": null,
-   "salary": "",
-   "contract": "",
-   "posted": "2026-10-27",
-   "category": "Jobs and Volunteering",
-   "wider": true,
-   "id": "f9f10928d706",
-   "source_id": "mdnorth",
-   "source": "Museum Development North – jobs board",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-10-27",
-   "found_at": "2026-10-28T05:51:22+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Public Programme Producer",
-   "url": "https://www.museumdevelopmentnorth.org.uk/tullie-public-programme-producer/",
-   "org": "Tullie",
-   "closing": null,
-   "salary": "",
-   "contract": "",
-   "posted": "2026-10-26",
-   "category": "Jobs and Volunteering",
-   "wider": true,
-   "id": "a15bed7aa22d",
-   "source_id": "mdnorth",
-   "source": "Museum Development North – jobs board",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-10-26",
-   "found_at": "2026-10-26T14:53:32+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Holidays Operation Assistant",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181002",
-   "org": "National Trust – Grasmere - RO",
-   "location": "Ambleside",
-   "salary": "£30,712",
-   "closing": "2026-11-22",
-   "posted": "2026-10-26",
-   "wider": true,
-   "id": "a6db7c742f81",
+   "title": "Commercial Team Leader",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181634",
+   "org": "National Trust – Gibside",
+   "location": "Newcastle upon Tyne",
+   "salary": "£25,838",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": false,
+   "id": "35313bd26576",
    "source_id": "nationaltrust",
    "source": "National Trust (North East properties)",
-   "area": "North East",
+   "area": "Tyne & Wear",
    "kind": "job",
-   "first_seen": "2026-10-26",
-   "found_at": "2026-10-26T05:45:03+00:00",
-   "last_seen": "2026-11-22"
+   "first_seen": "2026-10-18",
+   "found_at": "2026-10-19T05:41:48+00:00",
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Welcome Manager",
@@ -1868,49 +2123,7 @@
    "kind": "job",
    "first_seen": "2026-10-18",
    "found_at": "2026-10-19T05:41:48+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181274"
-    }
-   ]
-  },
-  {
-   "title": "Commercial Team Leader",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181302",
-   "org": "National Trust – Greenway",
-   "location": "Brixham",
-   "salary": "£25,838",
-   "closing": "2026-11-22",
-   "posted": "2026-11-16",
-   "wider": true,
-   "id": "35313bd26576",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-10-18",
-   "found_at": "2026-10-19T05:41:48+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Senior Commercial Manager",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181271",
-   "org": "National Trust – South Downs",
-   "location": "East Dean",
-   "salary": "£42,700",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "9afb5b68fdae",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-10-18",
-   "found_at": "2026-10-19T05:41:48+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Rural Surveyor",
@@ -1928,7 +2141,7 @@
    "kind": "job",
    "first_seen": "2026-10-12",
    "found_at": "2026-10-12T05:32:16+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Directorship of the Museum of Archaeology and Anthropology and Professorship of Material Culture",
@@ -1946,7 +2159,8 @@
    "kind": "job",
    "first_seen": "2026-10-06",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-22",
+   "stale": true
   },
   {
    "title": "Click here for links to other museum sector jobs resources and vacancy listings",
@@ -1963,7 +2177,7 @@
    "kind": "job",
    "first_seen": "2026-10-06",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Museum Redevelopment Champions",
@@ -1979,7 +2193,7 @@
    "kind": "job",
    "first_seen": "2026-10-06",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Catering Assistant",
@@ -1995,16 +2209,16 @@
    "kind": "job",
    "first_seen": "2026-10-04",
    "found_at": "2026-10-04T08:40:00+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Cook",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181482",
-   "org": "National Trust – Stourhead",
-   "location": "Warminster",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181461",
+   "org": "National Trust – Morden Hall Park",
+   "location": "London",
    "salary": "£25,838",
    "closing": "2026-11-29",
-   "posted": "2026-11-16",
+   "posted": "2026-11-23",
    "wider": true,
    "id": "a1c779aec128",
    "source_id": "nationaltrust",
@@ -2013,37 +2227,49 @@
    "kind": "job",
    "first_seen": "2026-09-27",
    "found_at": "2026-10-04T08:40:00+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
     {
      "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181111"
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181482"
     }
    ]
   },
   {
-   "title": "Collections Assistant",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181435",
-   "org": "National Trust – Sudbury Hall",
-   "location": "Ashbourne",
-   "salary": "£25,838",
-   "closing": "2026-11-22",
-   "posted": "2026-11-16",
+   "title": "Facilities Manager",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181764",
+   "org": "National Trust – The Vyne",
+   "location": "Basingstoke",
+   "salary": "£34,437",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
    "wider": true,
-   "id": "8a648e3d7a93",
+   "id": "138440f4d971",
    "source_id": "nationaltrust",
    "source": "National Trust (North East properties)",
    "area": "North East",
    "kind": "job",
-   "first_seen": "2026-09-27",
-   "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181263"
-    }
-   ]
+   "first_seen": "2026-09-11",
+   "found_at": "2026-11-09T13:53:42+00:00",
+   "last_seen": "2026-11-23"
+  },
+  {
+   "title": "Garden Supervisor",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181526",
+   "org": "National Trust – Dyrham Park",
+   "location": "Bath",
+   "salary": "£30,966",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "6443cbd9c243",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-09-11",
+   "found_at": "2026-11-09T13:53:42+00:00",
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Visitor Experience Officer",
@@ -2061,13 +2287,7 @@
    "kind": "job",
    "first_seen": "2026-09-11",
    "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181260"
-    }
-   ]
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Business Services Co-ordinator",
@@ -2085,17 +2305,7 @@
    "kind": "job",
    "first_seen": "2026-09-11",
    "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181089"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181098"
-    }
-   ]
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Property Curator",
@@ -2113,151 +2323,7 @@
    "kind": "job",
    "first_seen": "2026-09-11",
    "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Facilities Manager",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180976",
-   "org": "National Trust – Ham House",
-   "location": "Richmond-upon-Thames",
-   "salary": "£36,685",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "138440f4d971",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Communications & Marketing Delivery Partner",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181043",
-   "org": "National Trust – Penrhyn Castle",
-   "location": "Bangor",
-   "salary": "£36,621",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "2056cce0349e",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Senior Communications & Marketing Officer",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181196",
-   "org": "National Trust – Oxburgh Hall",
-   "location": "Kings Lynn",
-   "salary": "£28,993",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "af2c25ea08f6",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Garden Supervisor",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181240",
-   "org": "National Trust – Polesden Lacey",
-   "location": "Dorking",
-   "salary": "£31,281",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "6443cbd9c243",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Facilities Co-ordinator",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181254",
-   "org": "National Trust – Charlecote Park",
-   "location": "Warwick",
-   "salary": "£27,612",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "0e90a5a96bcc",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Welcome & Service Assistant (National Offices)",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181292",
-   "org": "National Trust – Heelis",
-   "location": "Swindon",
-   "salary": "£25,838",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "a48633169413",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Business Services Lead",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181304",
-   "org": "National Trust – Dunham Massey",
-   "location": "Greater Manchester",
-   "salary": "£30,966",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "327889f19408",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Senior Marketing Manager - Owned Channels",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181382",
-   "org": "National Trust – Heelis",
-   "location": "Swindon",
-   "salary": "£58,000",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "d516cdd6523c",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-09-11",
-   "found_at": "2026-11-09T13:53:42+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Trustees",
@@ -2276,7 +2342,7 @@
    "kind": "job",
    "first_seen": "2026-08-21",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Saddleworth Museum",
@@ -2295,48 +2361,16 @@
    "kind": "job",
    "first_seen": "2026-07-03",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Welcome & Service Team Member",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181327",
-   "org": "National Trust – Mid and SE Wales",
-   "location": "Brecon",
-   "salary": "£25,838",
-   "closing": "2026-11-29",
-   "posted": "2026-11-16",
-   "wider": true,
-   "id": "3ca9e18b21e7",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-04-10",
-   "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181335"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181385"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181510"
-    }
-   ]
+   "last_seen": "2026-11-23"
   },
   {
    "title": "Food & Beverage Team Member",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181329",
-   "org": "National Trust – Charlecote Park",
-   "location": "Warwick",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180634",
+   "org": "National Trust – Shugborough Estate",
+   "location": "Stafford",
    "salary": "£24,862",
-   "closing": "2026-11-29",
-   "posted": "2026-11-16",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
    "wider": true,
    "id": "b0a36ab7e6c4",
    "source_id": "nationaltrust",
@@ -2345,19 +2379,91 @@
    "kind": "job",
    "first_seen": "2026-04-10",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
     {
      "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181535"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181541"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181329"
+    },
+    {
+     "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181443"
+    }
+   ]
+  },
+  {
+   "title": "Gardener",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181521",
+   "org": "National Trust – Anglesey Abbey",
+   "location": "Cambridge",
+   "salary": "£27,612",
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "48e2e09e5197",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-04-10",
+   "found_at": "2026-10-06T05:29:21+00:00",
+   "last_seen": "2026-11-23",
+   "also_on": [
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181563"
     },
     {
      "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181244"
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181325"
+    }
+   ]
+  },
+  {
+   "title": "Welcome & Service Team Member",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181557",
+   "org": "National Trust – Lacock Abbey & House",
+   "location": "Chippenham",
+   "salary": "£25,838",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
+   "wider": true,
+   "id": "3ca9e18b21e7",
+   "source_id": "nationaltrust",
+   "source": "National Trust (North East properties)",
+   "area": "North East",
+   "kind": "job",
+   "first_seen": "2026-04-10",
+   "found_at": "2026-10-06T05:29:21+00:00",
+   "last_seen": "2026-11-23",
+   "also_on": [
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181588"
     },
     {
      "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181296"
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181663"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181327"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181335"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181385"
     }
    ]
   },
@@ -2377,15 +2483,11 @@
    "kind": "job",
    "first_seen": "2026-04-10",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
     {
      "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181403"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181338"
     }
    ]
   },
@@ -2405,63 +2507,23 @@
    "kind": "job",
    "first_seen": "2026-04-10",
    "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
     {
      "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181487"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181180"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181230"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181299"
-    }
-   ]
-  },
-  {
-   "title": "Gardener",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181242",
-   "org": "National Trust – Dunham Massey",
-   "location": "Greater Manchester",
-   "salary": "£27,612",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "48e2e09e5197",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-04-10",
-   "found_at": "2026-10-06T05:29:21+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181251"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181325"
     }
    ]
   },
   {
    "title": "Senior Ranger",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181331",
-   "org": "National Trust – Yorkshire Coast",
-   "location": "Scarborough",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181442",
+   "org": "National Trust – Cherryburn",
+   "location": "Stocksfield",
    "salary": "£30,966",
-   "closing": "2026-11-29",
-   "posted": "2026-11-16",
-   "wider": true,
+   "closing": "2026-12-06",
+   "posted": "2026-11-23",
+   "wider": false,
    "id": "bf50eaf7e651",
    "source_id": "nationaltrust",
    "source": "National Trust (North East properties)",
@@ -2469,34 +2531,30 @@
    "kind": "job",
    "first_seen": "2026-02-11",
    "found_at": "2026-11-02T06:11:13+00:00",
-   "last_seen": "2026-11-22",
+   "last_seen": "2026-11-23",
    "also_on": [
     {
      "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181637"
+    },
+    {
+     "source": "National Trust (North East properties)",
+     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181331"
+    },
+    {
+     "source": "National Trust (North East properties)",
      "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181365"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181450"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181212"
-    },
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181285"
     }
    ]
   },
   {
    "title": "Retail Team Member",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181422",
-   "org": "National Trust – Thames Valley",
-   "location": "Reading",
+   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181612",
+   "org": "National Trust – Hill Top",
+   "location": "Ambleside",
    "salary": "£24,862",
-   "closing": "2026-11-22",
-   "posted": "2026-11-16",
+   "closing": "2026-11-29",
+   "posted": "2026-11-23",
    "wider": true,
    "id": "3aa7d444adbb",
    "source_id": "nationaltrust",
@@ -2505,67 +2563,7 @@
    "kind": "job",
    "first_seen": "2026-02-11",
    "found_at": "2026-11-02T13:17:37+00:00",
-   "last_seen": "2026-11-22",
-   "also_on": [
-    {
-     "source": "National Trust (North East properties)",
-     "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/181311"
-    }
-   ]
-  },
-  {
-   "title": "Experience & Programming Manager",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180902",
-   "org": "National Trust – Chirk Castle",
-   "location": "Wrexham",
-   "salary": "£30,966",
-   "closing": "2026-11-22",
-   "posted": "2026-09-11",
-   "wider": true,
-   "id": "3c97ec578431",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-02-11",
-   "found_at": "2026-11-02T06:11:13+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Grazing Hub Project Co-ordinator",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180743",
-   "org": "National Trust – Arnside & Silverdale",
-   "location": "Silverdale",
-   "salary": "£29,367",
-   "closing": "2026-11-22",
-   "posted": "2026-02-11",
-   "wider": true,
-   "id": "79330dc8d994",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-02-11",
-   "found_at": "2026-11-02T06:11:13+00:00",
-   "last_seen": "2026-11-22"
-  },
-  {
-   "title": "Nursery Supervisor",
-   "url": "https://careers.nationaltrust.org.uk/OA_HTML/a/#/vacancy-detail/180909",
-   "org": "National Trust – Bodnant",
-   "location": "Conwy",
-   "salary": "£30,966",
-   "closing": "2026-11-22",
-   "posted": "2026-02-11",
-   "wider": true,
-   "id": "996e8f5f2739",
-   "source_id": "nationaltrust",
-   "source": "National Trust (North East properties)",
-   "area": "North East",
-   "kind": "job",
-   "first_seen": "2026-02-11",
-   "found_at": "2026-11-02T06:11:13+00:00",
-   "last_seen": "2026-11-22"
+   "last_seen": "2026-11-23"
   }
  ]
 }
